@@ -1,0 +1,14 @@
+C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Model\bin\Debug\net6.0\MyShop.Model.deps.json
+C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Model\bin\Debug\net6.0\MyShop.Model.runtimeconfig.json
+C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Model\bin\Debug\net6.0\MyShop.Model.dll
+C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Model\bin\Debug\net6.0\MyShop.Model.pdb
+C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Model\obj\Debug\net6.0\MyShop.Model.csproj.AssemblyReference.cache
+C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Model\obj\Debug\net6.0\MyShop.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Model\obj\Debug\net6.0\MyShop.Model.AssemblyInfoInputs.cache
+C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Model\obj\Debug\net6.0\MyShop.Model.AssemblyInfo.cs
+C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Model\obj\Debug\net6.0\MyShop.Model.csproj.CoreCompileInputs.cache
+C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Model\obj\Debug\net6.0\MyShop.Model.dll
+C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Model\obj\Debug\net6.0\refint\MyShop.Model.dll
+C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Model\obj\Debug\net6.0\MyShop.Model.pdb
+C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Model\obj\Debug\net6.0\MyShop.Model.genruntimeconfig.cache
+C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Model\obj\Debug\net6.0\ref\MyShop.Model.dll
