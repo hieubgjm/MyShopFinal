@@ -20,5 +20,12 @@ namespace MyShop.Model.Models
         public int? DisplayOrder { get; set; }
         public string? Image { get; set; }
         public bool? HotFlad { get; set; }
+
+        [MaxLength(256)]
+        public string MetaKeyword { get; set; }
+        [MaxLength(256)]
+        public string MetaDescription { get; set; }
+
+        public bool Status { get; set; }
     }
 }

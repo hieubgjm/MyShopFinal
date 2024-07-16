@@ -181,6 +181,9 @@
             "projectReferences": {
               "C:\\Users\\hieub\\Desktop\\TuHocLapTrinh\\BaseC#\\MyShop\\MyShop.Common\\MyShop.Common.csproj": {
                 "projectPath": "C:\\Users\\hieub\\Desktop\\TuHocLapTrinh\\BaseC#\\MyShop\\MyShop.Common\\MyShop.Common.csproj"
+              },
+              "C:\\Users\\hieub\\Desktop\\TuHocLapTrinh\\BaseC#\\MyShop\\MyShop.Model\\MyShop.Model.csproj": {
+                "projectPath": "C:\\Users\\hieub\\Desktop\\TuHocLapTrinh\\BaseC#\\MyShop\\MyShop.Model\\MyShop.Model.csproj"
               }
             }
           }
@@ -195,9 +198,37 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [

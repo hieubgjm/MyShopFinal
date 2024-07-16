@@ -6,11 +6,12 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MyShop.Model.Abstract;
 
 namespace MyShop.Model.Models
 {
     [Table("ProductTags")]
-    public class ProductTag
+    public class ProductTag : Auditable
     {
 
         [Key]

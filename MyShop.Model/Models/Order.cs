@@ -1,10 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using MyShop.Model.Abstract;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MyShop.Model.Models
 {
     [Table("Orders")]
-    public class Order
+    public class Order : Auditable
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -33,8 +34,7 @@ namespace MyShop.Model.Models
         [MaxLength(256)]
         public string? PaymentMethod { get; set; }
 
-        public DateTime? CreatedDate { get; set; }
-        public string CreatedBy { get; set; }
+      
         public string? PaymentStatus { get; set; }
         public bool Status { get; set; }
 

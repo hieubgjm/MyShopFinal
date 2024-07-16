@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyShop.Model.Abstract;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 namespace MyShop.Model.Models
 {
     [Table("PostTags")]
-    public class PostTags
+    public class PostTags : Auditable
     {
 
         [Key]

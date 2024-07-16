@@ -1,10 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using MyShop.Model.Abstract;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MyShop.Model.Models
 {
     [Table("OrderDetails")]
-    public class OrderDetail
+    public class OrderDetail : Auditable
     {
         [Key]
         public int ID { get; set; }
