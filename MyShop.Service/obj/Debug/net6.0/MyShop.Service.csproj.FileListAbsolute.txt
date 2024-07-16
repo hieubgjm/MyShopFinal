@@ -17,3 +17,5 @@ C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Service\obj\Debug\net6
 C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Service\obj\Debug\net6.0\refint\MyShop.Service.dll
 C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Service\obj\Debug\net6.0\MyShop.Service.pdb
 C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Service\obj\Debug\net6.0\ref\MyShop.Service.dll
+C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Service\obj\Debug\net6.0\MyShop.Service.sourcelink.json
+C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Service\bin\Debug\net6.0\appsettings.json

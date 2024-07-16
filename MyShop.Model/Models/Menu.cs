@@ -12,9 +12,11 @@ namespace MyShop.Model.Models
         public int ID { get; set; }
 
         [Required]
+        [MaxLength(50)]
         public string Name { get; set; }
 
         [Required]
+        [MaxLength(256)]
         public string URL { get; set; }
 
         public int? DisplayOrder { get; set; }
@@ -25,6 +27,7 @@ namespace MyShop.Model.Models
         [ForeignKey("GroupID")]
         public virtual MenuGroup MenuGroup { get; set; }
 
+        [MaxLength(10)]
         public string Target { get; set; }
 
         [Required]

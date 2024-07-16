@@ -4,10 +4,11 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MyShop.Model.Models
 {
-    [Table("Footer")]
+    [Table("Footers")]
     public class Footer : Auditable
     {
         [Key]
+        [MaxLength(50)]
         public string ID { get; set; }
 
         [Required]

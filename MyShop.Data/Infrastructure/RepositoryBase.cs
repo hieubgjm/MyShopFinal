@@ -1,25 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Metadata;
-using System.Text;
-using System.Threading.Tasks;
-using System.Data.Entity;
+using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
 namespace MyShop.Data.Infrastructure
 {
     public abstract class RepositoryBase<T> where T : class
     {
-
         #region Properties
+
         private MyShopDbContext dataContext;
-        private readonly IDbSet<T> dbSet;
+        private readonly DbSet<T> dbSet;
 
         protected IDbFactory DbFactory
         {
-               get;
-               private set;
+            get;
+            private set;
         }
 
         protected MyShopDbContext DbContext
@@ -27,15 +22,16 @@ namespace MyShop.Data.Infrastructure
             get { return dataContext ?? (dataContext = DbFactory.Init()); }
         }
 
-        #endregion
+        #endregion Properties
 
         protected RepositoryBase(IDbFactory dbFactory)
         {
             DbFactory = dbFactory;
-            dbSet = (IDbSet<T>?)DbContext.Set<T>();
+            dbSet = (DbSet<T>?)DbContext.Set<T>();
         }
 
         #region Implementation
+
         public virtual void Add(T entity)
         {
             dbSet.Add(entity);
@@ -78,8 +74,7 @@ namespace MyShop.Data.Infrastructure
 
         public IQueryable<T> GetAll(string[] includes = null)
         {
-
-            if(includes != null && includes.Count() > 0)
+            if (includes != null && includes.Count() > 0)
             {
                 var query = dataContext.Set<T>().Include(includes.First());
                 foreach (var include in includes.Skip(1))
@@ -105,7 +100,7 @@ namespace MyShop.Data.Infrastructure
 
         public virtual IQueryable<T> GetMulti(Expression<Func<T, bool>> predicate, string[] includes = null)
         {
-            if(includes != null && includes.Count() > 0)
+            if (includes != null && includes.Count() > 0)
             {
                 var query = dataContext.Set<T>().Include(includes.First());
                 foreach (var include in includes.Skip(1))
@@ -123,7 +118,6 @@ namespace MyShop.Data.Infrastructure
             IQueryable<T> _resetSet;
             if (includes != null && includes.Count() > 0)
             {
-
                 var query = dataContext.Set<T>().Include(includes.First());
                 foreach (var include in includes.Skip(1))
                 {
@@ -131,8 +125,8 @@ namespace MyShop.Data.Infrastructure
                 }
 
                 _resetSet = predicate != null ? query.Where<T>(predicate).AsQueryable() : query.AsQueryable();
-
-            } else
+            }
+            else
             {
                 _resetSet = predicate != null ? dataContext.Set<T>().Where<T>(predicate).AsQueryable() : dataContext.Set<T>().AsQueryable();
             }
@@ -147,6 +141,6 @@ namespace MyShop.Data.Infrastructure
             return dataContext.Set<T>().Count<T>(predicate) > 0;
         }
 
-        #endregion
+        #endregion Implementation
     }
 }

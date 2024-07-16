@@ -17,22 +17,26 @@ namespace MyShop.Data
 
         public DbSet<Footer> Footers { get; set; }
         public DbSet<Menu> Menus { get; set; }
+
+        public DbSet<ProductCategory> ProductCategories { get; set; }
+        public DbSet<Product> Products { get; set; }
+
+        public DbSet<Tag> Tags { get; set; }
+        public DbSet<PostCategory> PostCategories { get; set; }
         public DbSet<MenuGroup> MenuGroups { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderDetail> OrderDetails { get; set; }
         public DbSet<Page> Pages { get; set; }
         public DbSet<Post> Posts { get; set; }
-        public DbSet<PostCategory> PostCategories { get; set; }
+        
         public DbSet<PostTags> PostTags { get; set; }
-        public DbSet<Product> Products { get; set; }
-
-        public DbSet<ProductCategory> ProductCategories { get; set; }
+        
         public DbSet<ProductTag> ProductTags { get; set; }
 
         public DbSet<Slide> Slides { get; set; }
         public DbSet<SupportOnline> SupportOnlines { get; set; }
         public DbSet<SystemConfig> SystemConfigs { get; set; }
-        public DbSet<Tag> Tags { get; set; }
+       
         public DbSet<VisitorStatistic> VisitorStatistics { get; set; }
 
         public override int SaveChanges()
@@ -62,6 +66,21 @@ namespace MyShop.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             //base.OnModelCreating(modelBuilder);
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Product>()
+                .Property(r => r.Price)
+                .HasPrecision(18, 2);
+
+            modelBuilder.Entity<OrderDetail>()
+                .HasKey(od => new { od.ID, od.ProductID });
+            modelBuilder.Entity<PostTags>()
+                .HasKey(od => new { od.PostID, od.TagID });
+            modelBuilder.Entity<ProductTag>()
+                .HasKey(od => new { od.ProductID, od.TagID });
+             
+
+
+          
         }
 
         private void UpdateTimeStamps()

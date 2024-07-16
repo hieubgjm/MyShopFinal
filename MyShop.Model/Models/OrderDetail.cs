@@ -8,11 +8,14 @@ namespace MyShop.Model.Models
     public class OrderDetail : Auditable
     {
         [Key]
+        [Column(Order = 1)]
         public int ID { get; set; }
 
         [Key]
+        [Column(Order = 2)]
         public int ProductID { get; set; }
 
+        [Required]
         public int Quantity { get; set; }
 
         [ForeignKey("OrderID")]

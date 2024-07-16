@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq.Expressions;
 
 namespace MyShop.Data.Infrastructure
 {
@@ -18,7 +13,7 @@ namespace MyShop.Data.Infrastructure
         //Marks an entity to be removed
         void Delete(T entity);
 
-        //Delete multi records 
+        //Delete multi records
         void DeleteMulti(Expression<Func<T, bool>> where);
 
         //Get an entity by int id
@@ -35,6 +30,5 @@ namespace MyShop.Data.Infrastructure
         int Count(Expression<Func<T, bool>> where);
 
         bool CheckContains(Expression<Func<T, bool>> predicate);
-
     }
 }

@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MyShop.Model.Models
 {
-    [Table("MenuGroup")]
+    [Table("MenuGroups")]
     public class MenuGroup : Auditable
     {
         [Key]
@@ -12,6 +12,7 @@ namespace MyShop.Model.Models
         public int ID { get; set; }
 
         [Required]
+        [MaxLength(50)]
         public string Name { get; set; }
 
         public virtual IEnumerable<Menu> Menus { get; set; }

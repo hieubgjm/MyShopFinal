@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace MyShop.Model.Models
 {
+    [Table("Posts")]
     public class Post : Auditable
     {
 

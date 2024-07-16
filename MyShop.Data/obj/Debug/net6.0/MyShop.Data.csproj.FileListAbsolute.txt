@@ -13,3 +13,9 @@ C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Data\obj\Debug\net6.0\
 C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Data\obj\Debug\net6.0\refint\MyShop.Data.dll
 C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Data\obj\Debug\net6.0\MyShop.Data.pdb
 C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Data\obj\Debug\net6.0\ref\MyShop.Data.dll
+C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Data\bin\Debug\net6.0\MyShop.Data.runtimeconfig.json
+C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Data\bin\Debug\net6.0\MyShop.Model.dll
+C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Data\bin\Debug\net6.0\MyShop.Model.pdb
+C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Data\obj\Debug\net6.0\MyShop.Data.sourcelink.json
+C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Data\obj\Debug\net6.0\MyShop.Data.genruntimeconfig.cache
+C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Data\bin\Debug\net6.0\appsettings.json

@@ -15,13 +15,15 @@ namespace MyShop.Model.Models
         [Required]
         public string Name { get; set; }
 
-        public string Alias { get; set; }
+
+        public string? Alias { get; set; }
 
         [Required]
-        public string CategoryID { get; set; }
+        public int CategoryID { get; set; }
 
         public string? Image { get; set; }
-        public XElement? MoreImages { get; set; }
+        [Column(TypeName = "xml")]
+        public string? MoreImages { get; set; }
 
         [Required]
         public decimal Price { get; set; }
@@ -39,6 +41,7 @@ namespace MyShop.Model.Models
         [MaxLength(256)]
         public string MetaDescription { get; set; }
 
+        [Required]
         public bool Status { get; set; }
 
         [ForeignKey("CategoryID")]

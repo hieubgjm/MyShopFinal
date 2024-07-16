@@ -1,18 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MyShop.Data.Infrastructure
+﻿namespace MyShop.Data.Infrastructure
 {
     public class Disposable : IDisposable
     {
         private bool isDisposed;
-        ~Disposable() 
+
+        ~Disposable()
         {
             Dispose(false);
         }
+
         public void Dispose()
         {
             Dispose(true);
@@ -23,9 +19,7 @@ namespace MyShop.Data.Infrastructure
         {
             if (disposing && !isDisposed)
             {
-
                 DisposeCore();
-
             }
 
             isDisposed = true;
@@ -33,7 +27,6 @@ namespace MyShop.Data.Infrastructure
 
         protected virtual void DisposeCore()
         {
-
         }
     }
 }
