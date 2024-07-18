@@ -5,8 +5,8 @@ C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Common\obj\Debug\net6.
 C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Common\obj\Debug\net6.0\MyShop.Common.AssemblyInfoInputs.cache
 C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Common\obj\Debug\net6.0\MyShop.Common.AssemblyInfo.cs
 C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Common\obj\Debug\net6.0\MyShop.Common.csproj.CoreCompileInputs.cache
+C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Common\obj\Debug\net6.0\MyShop.Common.sourcelink.json
 C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Common\obj\Debug\net6.0\MyShop.Common.dll
 C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Common\obj\Debug\net6.0\refint\MyShop.Common.dll
 C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Common\obj\Debug\net6.0\MyShop.Common.pdb
 C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Common\obj\Debug\net6.0\ref\MyShop.Common.dll
-C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Common\obj\Debug\net6.0\MyShop.Common.sourcelink.json

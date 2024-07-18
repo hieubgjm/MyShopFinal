@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace MyShop.Model.Models
 {
     [Table("SystemConfigs")]
-    public class SystemConfig : Auditable
+    public class SystemConfigs : Auditable
     {
 
         [Key]

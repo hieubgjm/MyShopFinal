@@ -36,6 +36,11 @@ namespace MyShop.Model.Models
         public bool? HotFlag { get; set; }
         public int? ViewCount { get; set; }
 
+        public string Tags { set; get; }
+        public int Quantity { set; get; }
+
+        public decimal OriginalPrice { set; get; }
+
         [MaxLength(256)]
         public string MetaKeyword { get; set; }
         [MaxLength(256)]
@@ -46,5 +51,6 @@ namespace MyShop.Model.Models
 
         [ForeignKey("CategoryID")]
         public virtual ProductCategory ProductCategory { get; set; }
+        public virtual IEnumerable<ProductTag> ProductTags { set; get; }
     }
 }

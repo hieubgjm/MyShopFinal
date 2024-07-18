@@ -1,3 +1,4 @@
+C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Service\bin\Debug\net6.0\appsettings.json
 C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Service\bin\Debug\net6.0\MyShop.Service.deps.json
 C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Service\bin\Debug\net6.0\MyShop.Service.dll
 C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Service\bin\Debug\net6.0\MyShop.Service.pdb
@@ -12,10 +13,9 @@ C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Service\obj\Debug\net6
 C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Service\obj\Debug\net6.0\MyShop.Service.AssemblyInfoInputs.cache
 C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Service\obj\Debug\net6.0\MyShop.Service.AssemblyInfo.cs
 C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Service\obj\Debug\net6.0\MyShop.Service.csproj.CoreCompileInputs.cache
+C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Service\obj\Debug\net6.0\MyShop.Service.sourcelink.json
 C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Service\obj\Debug\net6.0\MyShop.Service.csproj.CopyComplete
 C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Service\obj\Debug\net6.0\MyShop.Service.dll
 C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Service\obj\Debug\net6.0\refint\MyShop.Service.dll
 C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Service\obj\Debug\net6.0\MyShop.Service.pdb
 C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Service\obj\Debug\net6.0\ref\MyShop.Service.dll
-C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Service\obj\Debug\net6.0\MyShop.Service.sourcelink.json
-C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Service\bin\Debug\net6.0\appsettings.json

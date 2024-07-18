@@ -7,9 +7,9 @@ C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Model\obj\Debug\net6.0
 C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Model\obj\Debug\net6.0\MyShop.Model.AssemblyInfoInputs.cache
 C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Model\obj\Debug\net6.0\MyShop.Model.AssemblyInfo.cs
 C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Model\obj\Debug\net6.0\MyShop.Model.csproj.CoreCompileInputs.cache
+C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Model\obj\Debug\net6.0\MyShop.Model.sourcelink.json
 C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Model\obj\Debug\net6.0\MyShop.Model.dll
 C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Model\obj\Debug\net6.0\refint\MyShop.Model.dll
 C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Model\obj\Debug\net6.0\MyShop.Model.pdb
 C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Model\obj\Debug\net6.0\MyShop.Model.genruntimeconfig.cache
 C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Model\obj\Debug\net6.0\ref\MyShop.Model.dll
-C:\Users\hieub\Desktop\TuHocLapTrinh\BaseC#\MyShop\MyShop.Model\obj\Debug\net6.0\MyShop.Model.sourcelink.json

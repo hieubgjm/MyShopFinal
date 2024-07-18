@@ -47,5 +47,7 @@ namespace MyShop.Model.Models
 
         [ForeignKey("CategoryID")]
         public virtual PostCategory PostCategory { get; set; }
+
+        public virtual IEnumerable<PostTags> PostTags { get; set; }
     }
 }

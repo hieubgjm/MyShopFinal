@@ -35,9 +35,14 @@ namespace MyShop.Data
 
         public DbSet<Slide> Slides { get; set; }
         public DbSet<SupportOnline> SupportOnlines { get; set; }
-        public DbSet<SystemConfig> SystemConfigs { get; set; }
+        public DbSet<Tag> SystemConfigs { get; set; }
        
         public DbSet<VisitorStatistic> VisitorStatistics { get; set; }
+        public DbSet<Error> Errors { set; get; }
+        public DbSet<ContactDetail> ContactDetails { set; get; }
+        public DbSet<Feedback> Feedbacks { set; get; }
+
+ 
 
         public override int SaveChanges()
         {
@@ -77,10 +82,7 @@ namespace MyShop.Data
                 .HasKey(od => new { od.PostID, od.TagID });
             modelBuilder.Entity<ProductTag>()
                 .HasKey(od => new { od.ProductID, od.TagID });
-             
 
-
-          
         }
 
         private void UpdateTimeStamps()

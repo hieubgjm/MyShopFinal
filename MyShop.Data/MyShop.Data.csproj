@@ -38,8 +38,4 @@
     <ProjectReference Include="..\MyShop.Model\MyShop.Model.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Respositories\" />
-  </ItemGroup>
-
 </Project>

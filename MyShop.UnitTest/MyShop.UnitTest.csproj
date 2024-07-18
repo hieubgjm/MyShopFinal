@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -23,6 +23,11 @@
     <ProjectReference Include="..\MyShop.Model\MyShop.Model.csproj" />
     <ProjectReference Include="..\MyShop.Service\MyShop.Service.csproj" />
     <ProjectReference Include="..\MyShop.Web\MyShop.Web.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ServiceTest\" />
+    <Folder Include="RepositoryTest\" />
   </ItemGroup>
 
 </Project>
